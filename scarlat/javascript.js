@@ -9,24 +9,14 @@ function menuX(){
 menuresponsivo.onclick = menuX;
 
 
-let mae = document.querySelector (".mae");
-let pai = document.querySelector (".pai");
-let deus = document.querySelector (".deus");
+let span1 = document.querySelector (".mae");
+let span2 = document.querySelector (".pai");
+let span3 = document.querySelector (".deus");
 let hamburguer = document.querySelector (".hamburguer");
 
-
-transformarX = () =>{
-    hamburguer.classList.toggle("aventura");
-
+criarUmX = () =>{
+    span1.classList.toggle("spanSuperior");
+    span2.classList.toggle("spanMeio");
+    span3.classList.toggle("spanInferior");
 }
-
-hamburguer.onclick =  transformarX;
-
-
-transformarO = () =>{
-    mae.classList.toggle("billy");
-
-}
-
-mae.onclick =  transformarO;
-
+hamburguer.onclick=criarUmX;

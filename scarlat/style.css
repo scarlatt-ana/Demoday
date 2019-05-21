@@ -83,18 +83,28 @@ span {
     height: 40vh;
 }
 
-.aventura{
-    transform: rotate(120deg);
-    transition: 0.5s;
+.spanSuperior{
+    transform: rotate(150deg);
+    transition: 0.4s;
 }
 
-.billy{
-    transform: rotate (120deg);
-    transition: 0.5s;
+.spanMeio{
+    transform: translateX(300px);
+    transition: 1s;
 }
 
+.spanInferior{
+    transform: rotate(30deg);
+    transition: 0.4s;
+}
 
+span{
+    transition: 0.4s;
+}
 
+.pai, .deus  {
+    transform-origin: right center;
+  }
 
 /*SECTION DE PROJETO*/
 section{
